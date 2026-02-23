@@ -77,5 +77,11 @@ if __name__ == "__main__":
     if movie:
         print("\nMovie found from API:")
         print(movie)
+
+        save = input("Do you want to save this movie? (y/n): ")
+
+        if save.lower() == "y":
+            agent.add_movie(**movie)
+            print("✔ Movie saved successfully!")
     else:
         print("\nMovie not found in external source")

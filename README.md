@@ -35,7 +35,7 @@ Install the required dependencies:
 pip install -r requirements.txt  
 
 Run the project:
-
+(make sure you are inside the cd src)
 python main.py  
 
 ## 📝 Notes
